@@ -1,0 +1,15 @@
+{{#each errors}}
+  <h1 style="color:red">{{text}}</h1>
+{{/each}}
+
+{{#if error}}
+  <h1 style="color:red">{{error}}</h1>
+{{/if}}
+
+{{#if SUCCESS_MSG}}
+  <h1 style="color:green">{{SUCCESS_MSG}}</h1>
+{{/if}}
+
+{{#if ERROR_MSG}}
+  <h1 style="color:red">{{ERROR_MSG}}</h1>
+{{/if}}
